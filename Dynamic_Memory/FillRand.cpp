@@ -7,7 +7,7 @@ void FillRand(int arr[], int& even, int& odd, const int n)
 		if (arr[i] % 2 == 0)
 		{
 			even++;
-		}
+		} 
 		else
 		{
 			odd++;

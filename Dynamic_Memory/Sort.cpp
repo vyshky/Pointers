@@ -1,25 +1,19 @@
 #include"Header.h"
-void SortEven(int arr[], int arr2[], const int n)
+void Sort(int arr[], int arr2[], const int n, bool b)
 {
 	for (int i = 0, count = 0; i < n; i++)
 	{
-		if (arr[i] % 2 == 0)
+
+		if (arr[i] % 2 == 0 && b == true)
 		{
 			arr2[count] = arr[i];
 			count++;
 		}
-
-	}
-}
-
-void SortOdd(int arr[], int arr2[], const int n)
-{
-	for (int i = 0, count = 0; i < n; i++)
-	{
-		if (arr[i] % 2 != 0)
+		else if (arr[i] % 2 != 0 && b == false)
 		{
 			arr2[count] = arr[i];
 			count++;
 		}
 	}
 }
+

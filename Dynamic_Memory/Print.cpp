@@ -6,4 +6,4 @@ void Print(int arr[], const int n)
 		cout << arr[i] << '\t';
 	}
 	cout << endl;
-}
+} 
